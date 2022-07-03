@@ -5,8 +5,8 @@ import re
 import zipfile
 import os
 import telegraph
-from modules.control import run_await_rclone
-from modules.pixiv import compress_image, put_telegraph
+from control import run_await_rclone
+from pixiv import compress_image, put_telegraph
 import requests
 from lxml import etree
 from pyrogram.types import InlineKeyboardMarkup,InlineKeyboardButton
